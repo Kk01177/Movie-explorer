@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Movie Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simple Movie Explorer</h1>
+    <div id="movie-form">
+        <input type="text" id="movie-input" placeholder="Enter movie title" />
+        <button id="search-movie">Search</button>
+    </div>
+    <div id="movie-details" style="display: none;">
+        <h2 id="movie-title"></h2>
+        <img id="movie-poster" src="" alt="Movie Poster" />
+        <p id="movie-plot"></p>
+        <button id="add-to-list">Add to Favorites</button>
+    </div>
+    <h2>My Favorite Movies</h2>
+    <ul id="movie-list"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
